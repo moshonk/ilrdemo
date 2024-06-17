@@ -1,4 +1,4 @@
-# EMR System
+# ILR Demo
 
 ## Project Structure
 
@@ -37,5 +37,3 @@ npm start
 
 1. Set up MySQL and create the necessary databases for each service.
 2. Update the `application.properties` file in each service with the appropriate database configuration.
-
-# ilrdemo
