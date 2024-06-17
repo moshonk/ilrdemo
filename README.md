@@ -37,3 +37,15 @@ npm start
 
 1. Set up MySQL and create the necessary databases for each service.
 2. Update the `application.properties` file in each service with the appropriate database configuration.
+
+### Docker Deployment
+
+1. Ensure Docker and Docker Compose are installed on your machine.
+2. Navigate to the root directory of the project.
+3. Run the following command to build and start all services:
+
+```
+docker-compose up --build
+```
+
+This will start all the backend services, frontend application, and database as defined in the [`docker-compose.yml`](./docker-compose.yml") file. The services will be accessible at the ports defined in the [`docker-compose.yml`](./docker-compose.yml") file.
