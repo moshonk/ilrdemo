@@ -48,4 +48,4 @@ npm start
 docker-compose up --build
 ```
 
-This will start all the backend services, frontend application, and database as defined in the [`docker-compose.yml`](./docker-compose.yml") file. The services will be accessible at the ports defined in the [`docker-compose.yml`](./docker-compose.yml") file.
+This will start all the backend services, frontend application, and database as defined in the [`docker-compose.yml`](./docker-compose.yml) file.
